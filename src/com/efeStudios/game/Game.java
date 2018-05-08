@@ -41,7 +41,7 @@ public void addNewNumber() {
 	gameBoard[X][Y] = newNumber; 
 }
 public void pushUp( ) {
-	System.out.println("Pushing up...");
+	System.out.println("Pushing up...........");
 	boolean[][] alreadyCombined = {{false,false,false,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,false,false,false},{false,false,false,false,false}};
 	for(int y=0;y<5;y++) {
 		for(int x=1;x<5;x++) {
